@@ -1,19 +1,17 @@
 {
-  "name": "toolchain",
-  "version": "0.0.1",
-  "description": "Toolchain CLI",
+  "name": "@toolchain-js/example-toolchains",
+  "version": "1.0.0",
+  "description": "Example templates and toolchains for Toolchain CLI",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/toolchain-js/toolchain"
+    "url": "https://github.com/toolchain-js/example-toolchains"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [
-    "index.js"
-  ],
+  "private": true,
   "engines": {
     "node": ">=12"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }

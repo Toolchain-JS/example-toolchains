@@ -1,0 +1,25 @@
+{
+  "toolchain": "@toolchain-js/toolchain-rollup-bundler",
+  "package": {
+    "name": "project-name",
+    "description": "FILL APPLICATION DESCRIPTION",
+    "author": "YOUR NAME",
+    "license": "UNLICENSED",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/FILL-APPLICATION-REPOSITORY"
+    },
+    "private": true,
+    "main": "./dist/index.js",
+    "module": "./dist/index.esm.js",
+    "files": [
+      "dist"
+    ],
+    "engines": {
+      "node": ">=12"
+    },
+    "dependencies": {
+      "qs": "^6.6.0"
+    }
+  }
+}

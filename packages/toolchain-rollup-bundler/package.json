@@ -1,0 +1,58 @@
+{
+  "name": "@toolchain-js/toolchain-rollup-bundler",
+  "version": "0.1.0",
+  "description": "The example Toolchain CLI toolchain for bundling libraries with Rollup.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toolchain-js/example-toolchains",
+    "directory": "packages/tjs-toolchain-rollup-bundler"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin",
+    "config",
+    "scripts"
+  ],
+  "bin": {
+    "rollup-bundler": "./bin/rollup-bundler.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "@babel/runtime-corejs3": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.13.5",
+    "@babel/plugin-proposal-json-strings": "^7.13.8",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.13.8",
+    "@babel/plugin-proposal-optional-chaining": "^7.13.8",
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/runtime": "^7.13.10",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "chalk": "^4.1.1",
+    "cross-spawn": "^7.0.3",
+    "inquirer": "^8.0.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^32.3.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "fs-extra": "^10.0.0",
+    "os": "^0.1.1",
+    "rollup": "^2.45.2",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
