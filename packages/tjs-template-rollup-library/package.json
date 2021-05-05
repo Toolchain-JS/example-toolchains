@@ -1,6 +1,6 @@
 {
   "name": "@toolchain-js/tjs-template-rollup-library",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "The example Toolchain CLI template for rollup bundled library.",
   "license": "MIT",
   "repository": {
