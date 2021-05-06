@@ -1,6 +1,6 @@
 {
   "name": "@toolchain-js/toolchain-rollup-bundler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The example Toolchain CLI toolchain for bundling libraries with Rollup.",
   "keywords": [
     "toolchain-js",
