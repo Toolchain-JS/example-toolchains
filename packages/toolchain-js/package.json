@@ -14,6 +14,7 @@
     "webpack",
     "rollup",
     "parcel",
+    "create",
     "bootstrap",
     "boilerplate",
     "kit",
@@ -44,6 +45,6 @@
     "toolchain-js": "./index.js"
   },
   "dependencies": {
-    "create-toolchain": "^1.0.1"
+    "create-toolchain": "^1.0.2"
   }
 }

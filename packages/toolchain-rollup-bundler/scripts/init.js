@@ -164,7 +164,7 @@ module.exports = function (
         );
     }
 
-    // Install template dependencies, and react and react-dom if missing.
+    // Install template dependencies
     if (args.length > 1) {
         console.log();
         console.log(`Installing template dependencies using ${command}...`);
