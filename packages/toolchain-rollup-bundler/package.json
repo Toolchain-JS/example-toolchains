@@ -2,6 +2,17 @@
   "name": "@toolchain-js/toolchain-rollup-bundler",
   "version": "1.0.0",
   "description": "The example Toolchain CLI toolchain for bundling libraries with Rollup.",
+  "keywords": [
+    "toolchain-js",
+    "toolchain",
+    "cli",
+    "template",
+    "rollup",
+    "bootstrap",
+    "boilerplate",
+    "init",
+    "library"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",

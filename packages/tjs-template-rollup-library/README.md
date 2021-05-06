@@ -8,4 +8,5 @@ To use this template start the new project by running Toolchain CLI:
 $ npx create-toolchain my-library-name --template @toolchain-js/rollup-library
 ```
 
-For further Toolchain CLI usage, please check [create-toolchain](https://github.com/Toolchain-JS/create-toolchain) documentation.
+For detailed usage of Toolchain CLI, please check [create-toolchain](https://github.com/Toolchain-JS/create-toolchain) 
+documentation.

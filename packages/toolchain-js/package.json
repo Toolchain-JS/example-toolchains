@@ -2,6 +2,29 @@
   "name": "toolchain-js",
   "version": "1.0.0",
   "description": "Mirror package for Toolchain CLI - project initialization utility",
+  "keywords": [
+    "toolchain-js",
+    "toolchain",
+    "cli",
+    "template",
+    "react",
+    "preact",
+    "vue",
+    "VueJS",
+    "webpack",
+    "rollup",
+    "parcel",
+    "bootstrap",
+    "boilerplate",
+    "kit",
+    "generator",
+    "scaffold",
+    "init",
+    "automation",
+    "project",
+    "app",
+    "library"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,6 +44,6 @@
     "toolchain-js": "./index.js"
   },
   "dependencies": {
-    "create-toolchain": "^1.0.0"
+    "create-toolchain": "^1.0.1"
   }
 }
