@@ -45,6 +45,6 @@
     "toolchain-js": "./index.js"
   },
   "dependencies": {
-    "create-toolchain": "^1.0.2"
+    "create-toolchain": "^1.1.0"
   }
 }

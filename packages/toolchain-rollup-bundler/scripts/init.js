@@ -154,7 +154,7 @@ module.exports = function (
         args = ['install', '--save', verbose && '--verbose'].filter(e => e);
     }
 
-    // Install additional template dependencies
+    // Install template dependencies
     const templateDependencies = templatePackage.dependencies;
     if (templateDependencies) {
         args = args.concat(
@@ -163,8 +163,6 @@ module.exports = function (
             }),
         );
     }
-
-    // Install template dependencies
     if (args.length > 1) {
         console.log();
         console.log(`Installing template dependencies using ${command}...`);
@@ -183,7 +181,7 @@ module.exports = function (
         stdio: 'inherit',
     });
     if (proc.status !== 0) {
-        console.error(`\`${command} ${args.join(' ')}\` failed`);
+        console.error(`\`${command}\` failed`);
         return;
     }
 
@@ -193,8 +191,8 @@ module.exports = function (
     // print final messages
     console.log(`Success! Project ${projectName} created at ${projectPath}`);
     console.log();
-    console.log('We suggest that you begin by reading README.md file. Update package.json and');
-    console.log('README.md according to your project requirements.');
+    console.log('We suggest that you start by checking out README.md file. Please, update');
+    console.log('package.json and README.md according to your project requirements.');
     console.log();
     console.log('Inside project directory, you can run:');
     console.log(chalk.cyan(`  ${displayedCommand} start`));

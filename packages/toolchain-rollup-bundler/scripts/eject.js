@@ -31,9 +31,6 @@ inquirer
         const ownPath = path.resolve(__dirname, '..');
         const projectPath = fs.realpathSync(process.cwd());
 
-console.log(ownPath)
-console.log(projectPath)
-
         function verifyAbsent(file) {
             if (fs.existsSync(path.join(projectPath, file))) {
                 console.error(
