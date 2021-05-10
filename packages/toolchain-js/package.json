@@ -1,6 +1,6 @@
 {
   "name": "toolchain-js",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Mirror package for Toolchain CLI - project initialization utility",
   "keywords": [
     "toolchain-js",
